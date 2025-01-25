@@ -1,0 +1,9 @@
+package com.audit.log.repository;
+
+import com.audit.log.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepository extends JpaRepository<User,String> {
+}
